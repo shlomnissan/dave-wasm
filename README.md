@@ -29,7 +29,7 @@ emcc main.c system.c textures.c map.c player.c font.c -s WASM=1 -s USE_SDL=2 -s 
 ## MIT license:
 
 ```
-Copyright (c) 2019 Betamark
+Copyright (c) 2019 Shlomi Nissan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
