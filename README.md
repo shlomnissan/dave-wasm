@@ -4,6 +4,8 @@ Compiling C/SDL demo of Dangerous Dave (originally designed, created and ported 
 
 Live demo: https://shlomnissan.github.io/dave-wasm
 
+![dave-wasm](https://user-images.githubusercontent.com/3165988/58176944-3fbfa000-7c58-11e9-98a5-e4f1f4a10183.gif)
+
 ## Installation:
 
 1. Install Emscripten:<br/>
@@ -23,8 +25,6 @@ emcc main.c system.c textures.c map.c player.c font.c -s WASM=1 -s USE_SDL=2 -s 
 
 5. 🕹Use the arrow keys to move Dave around.
 <br/>
-
-![dave-wasm](https://user-images.githubusercontent.com/3165988/58176944-3fbfa000-7c58-11e9-98a5-e4f1f4a10183.gif)
 
 ## MIT license:	
 
